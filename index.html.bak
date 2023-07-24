@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta name="generator" content="thesitewizard.com's Layout Wizard 3.0.1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="all" href="styles.css">
+  </head>
+  <body>
+    <div id="tswcontainer">
+      <div id="tswheader">
+        <p></p>
+        <p> This section is an introduction to the website. </p>
+        <p>&nbsp;</p>
+        <div id="tswcontent">
+          <div id="tswcontproper">
+            <!-- start of content column: insert your content here -->
+            <h1>Welcome</h1>
+            <p> This website will show you my interests and my town. This
+              website will show you my interests and my town. This website will
+              show you my interests and my town. This website will show you my
+              interests and my town.</p>
+            <p> This website will show you my interests and my town. This
+              website will show you my interests and my town. This website will
+              show you my interests and my town. This website will show you my
+              interests and my town. This website will show you my interests and
+              my town. This website will show you my interests and my town.</p>
+            <p>&nbsp;</p>
+            <!-- end of content column: put your content above this line --> </div>
+        </div>
+        <div id="tswsidecol">
+          <div id="tswsideproper">
+            <!-- start of side column: insert your navigation menu, etc, here -->
+            <p> Make sure to click "BACK" at the bottom to get back to the
+              sitemap </p>
+            <!-- end of side column: put your navigation menu, etc, above this line -->
+          </div>
+        </div>
+        <div style="clear: both;"></div>
+        <div id="tswfooter">
+          <p> <a href="sitemap.html">BACK </a></p>
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>
