@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head style=" background-color:#3C4142;">
+  <head style="              background-color:#3C4142;">
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <title style="background-color:#3C4142;">Site Map</title>
     <link rel="stylesheet" type="text/css" media="all" href="styles.css">
   </head>
-  <body style=" background-color:#3C4142;">
-      <div id="tswcontent1">
-        <div id="tswcontproper">
-          <h1><img src="images/logo.png" alt="" title="logo" style="width: 171px; height: 62px;"
+  <body style="             background-color:#3C4142;" ,="" class="container">
+    <div id="tswcontent1" ,="" class="container">
+      <div id="tswcontproper">
+        <h1><img src="images/logo.png" alt="" title="logo" style="width: 171px; height: 62px;"
 
-              id="logo"></h1>
-          <h1>Site Map</h1>
-          <p> <a href="index.html",  style="color: #61f4de">Home </a><br>
-            <a href="myinterests.html",  style="color: #61f4de">My Interests </a><br>
-            <a href="mytown.html",  style="color: #61f4de">My Town </a><br>
-          </p>
-        </div>
+            id="logo"></h1>
+        <h1><br>
+        </h1>
+        <h1> Choose from below:</h1>
+        <p, class="container"> <a href="index.html" ,="" style="color: #61f4de">Home</a></p,><br>
+        <p, class="container"> <a href="myinterests.html" ,="" style="color: #61f4de">My
+            Interests</a></p,><br>
+        <p, class="container"><a href="mytown.html" ,="" style="color: #61f4de">My
+            Town </a></p,>
+        <div> </div>
       </div>
     </div>
   </body>

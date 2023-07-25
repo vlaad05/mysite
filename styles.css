@@ -4,8 +4,8 @@ body {
 
 img {
   max-width: 100%;
-  width: auto;
-  height: auto;
+  width: 439px;
+  height: 159px;
 }
 
 input, select, button, textarea {
@@ -20,19 +20,19 @@ div#tswsidecol {
   float: right;
   width: 20%;
   color: white;
-  background-color: #3C4142;
+  background-color: #3c4142;
 }
 
 div#tswcontent {
   float: right;
   width: 80%;
   color: white;
-  background-color: #3C4142;
+  background-color: #3c4142;
 }
 
 div#tswcontent1 {
   color: white;
-  background-color: #3C4142;
+  background-color: #3c4142;
 }
 
 @media only screen and ( max-width : 629px ) {
@@ -53,7 +53,7 @@ div#tswcontproper {
 
 div#tswcontainer {
   color: white;
-  background-color: #3C4142;
+  background-color: #3c4142;
 }
 
 div#tswsideproper, div#tswothersideproper {
@@ -65,9 +65,89 @@ div#tswsideproper, div#tswothersideproper {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 70px;
 }
 
 #food {
   margin-left: 40px;
 }
 
+#city1 {
+  margin-left: 45%;
+  margin-bottom: 0px;
+  margin-top: -320px;
+}
+
+html, body, .container {
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#logo1 {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.pulse {
+  animation-name: pulse_anim;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+        
+@keyframes pulse_anim {
+    0%, 100% {
+		opacity: 100%;
+		color: black;
+    }
+    10% {
+            	opacity: 50%;
+                color: orange;
+                font-size: 20px;
+            }
+            20% {
+            	opacity: 50%;
+                color: yellow;
+                font-size: 30px;
+            }
+            30% {
+            	opacity: 50%;
+                color: green;
+                font-size: 40px;
+            }
+            40% {
+            	opacity: 50%;
+                color: blue;
+                font-size: 50px;
+            }
+            50% {
+            	opacity: 50%;
+                color: indigo;
+                font-size: 60px;
+            }
+            60% {
+            	opacity: 50%;
+                color: violet;
+                font-size: 50px;
+            }
+            70% {
+            	opacity: 50%;
+                color: red;
+                font-size: 40px;
+            }
+            80% {
+            	opacity: 50%;
+                color: red;
+                font-size: 30px;
+            }
+            90% {
+            	opacity: 50%;
+                color: red;
+                font-size: 20px;
+            }
+        }

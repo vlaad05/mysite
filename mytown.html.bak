@@ -8,11 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="all" href="styles.css">
   </head>
-  <body>
+  <body style="   background-color:#3C4142;">
     <div id="tswcontainer">
       <div id="tswheader">
-        <p> <img src="images/logo.png" alt="" title="logo" style="width: 171px; height: 63px;"
-            id="logo"></p>
+        <p> <img src="images/logo.png" alt="" title="logo" id="logo"></p>
         <p>This section is about my hometown. </p>
         <p>&nbsp;</p>
         <div id="tswcontent">
@@ -42,21 +41,34 @@
               towns.</p>
             <p>Romania is first, Houston is the 2nd one.</p>
             <p><img src="images/bucharest.jpg" alt="" title="bucharest" style="width: 548px; height: 308px;"><img
-                src="images/houston.jpg" alt="" title="houston" style="width: 545px; height: 363px;"></p>
+                src="images/houston.jpg" alt="" title="houston" style="width: 545px; height: 363px;"
+                id="city1"></p>
             <p>&nbsp;</p>
             <!-- end of content column: put your content above this line --> </div>
         </div>
         <div id="tswsidecol">
           <div id="tswsideproper">
             <!-- start of side column: insert your navigation menu, etc, here -->
-            <p> Make sure to click "BACK" at the bottom to get back to the
-              sitemap </p>
+            <p><br>
+            </p>
+            <p><br>
+            </p>
+            <p><br>
+            </p>
+            <p><br>
+            </p>
+            <p><br>
+            </p>
+            <p><br>
+            </p>
+            <p>Make sure to click "BACK" at the </p>
+            <p>bottom to get back to the sitemap </p>
             <!-- end of side column: put your navigation menu, etc, above this line -->
           </div>
         </div>
         <div style="clear: both;"></div>
         <div id="tswfooter">
-          <p> <a href="sitemap.html">BACK </a></p>
+          <p> <a href="sitemap.html" ,="" style="color: #61f4de">BACK </a></p>
         </div>
       </div>
     </div>
