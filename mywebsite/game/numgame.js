@@ -7,7 +7,7 @@ let secret;
 function loadGame() {
     guess.max = MAXNUM;
     secret = Math.floor(Math.random() * (MAXNUM + 1));
-    // report.innerHTML = secret;
+    report.innerHTML = secret;
 }
 
 function makeGuess() {
@@ -23,5 +23,7 @@ function makeGuess() {
         report.innerHTML += `<br/>[${myGuess}] CORRECT`;
         report.style.color = "green";
         report.style.fontSize = "30px";
+        let bodyElement = document.getElementById("body")
+        bodyElement.classList.add("pulse");
     }
 }
