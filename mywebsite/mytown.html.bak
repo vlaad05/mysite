@@ -40,8 +40,10 @@
               in Houston, Texas, in the USA. Look at the pictures to see the two
               towns.</p>
             <p>Romania is first, Houston is the 2nd one.</p>
-            <p><img src="images/bucharest.jpg" alt="" title="bucharest" style="width: 548px; height: 308px;"><img
-                src="images/houston.jpg" alt="" title="houston" style="width: 545px; height: 363px;"
+            <p><img src="images/bucharest.jpg" alt="" title="bucharest" style="width: 548px; height: 308px;"><img
+
+                src="images/houston.jpg" alt="" title="houston" style="width: 545px; height: 363px;"
+
                 id="city1"></p>
             <p>&nbsp;</p>
             <!-- end of content column: put your content above this line --> </div>

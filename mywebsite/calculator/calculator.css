@@ -1,10 +1,11 @@
 /** @format */
 
 body {
-	background-color: black;
-	color: aliceblue;
-	font-weight: bolder;
+    background-color: black;
+    color: aliceblue;
+    font-weight: bolder;
 }
+
 #history {
-	font-weight: lighter;
+    font-weight: lighter;
 }

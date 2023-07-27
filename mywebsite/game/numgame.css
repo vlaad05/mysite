@@ -1,66 +1,57 @@
 /** @format */
 
 body {
-	background-color: black;
-	color: whitesmoke;
-	font-weight: bold;
+    background-color: black;
+    color: whitesmoke;
+    font-weight: bold;
 }
 
 .pulse {
-	animation-name: pulse_anim;
-	animation-duration: 1s;
-	animation-iteration-count: infinite;
+    animation-name: pulse_anim;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes pulse_anim {
-	0%,
-	100% {
-		opacity: 100%;
-		background-color: black;
-	}
-
-	10% {
-		opacity: 100%;
-		background-color: orange;
-	}
-
-	20% {
-		opacity: 100%;
-		background-color: yellow;
-	}
-
-	30% {
-		opacity: 100%;
-		background-color: green;
-	}
-
-	40% {
-		opacity: 100%;
-		background-color: blue;
-	}
-
-	100% {
-		opacity: 100%;
-		background-color: indigo;
-	}
-
-	60% {
-		opacity: 100%;
-		background-color: violet;
-	}
-
-	70% {
-		opacity: 100%;
-		background-color: red;
-	}
-
-	80% {
-		opacity: 100%;
-		background-color: orange;
-	}
-
-	90% {
-		opacity: 100%;
-		background-color: yellow;
-	}
+    0%,
+    100% {
+        opacity: 100%;
+        background-color: black;
+    }
+    10% {
+        opacity: 100%;
+        background-color: orange;
+    }
+    20% {
+        opacity: 100%;
+        background-color: yellow;
+    }
+    30% {
+        opacity: 100%;
+        background-color: green;
+    }
+    40% {
+        opacity: 100%;
+        background-color: blue;
+    }
+    100% {
+        opacity: 100%;
+        background-color: indigo;
+    }
+    60% {
+        opacity: 100%;
+        background-color: violet;
+    }
+    70% {
+        opacity: 100%;
+        background-color: red;
+    }
+    80% {
+        opacity: 100%;
+        background-color: orange;
+    }
+    90% {
+        opacity: 100%;
+        background-color: yellow;
+    }
 }
