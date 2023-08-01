@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pong</title>
+    <link rel="stylesheet" href="pong.css">
+</head>
+<body>
+    <h1>PONG</h1>
+    <canvas id="gameboard" width="500" height="500"></canvas>
+    <img src="star.png" style="width: 3%; height: auto; position: relative; display: none;" id="image">
+    <audio src="powerup.mp3" id="sound"></audio>
+    <audio src="boing.mp3" id="boing"></audio>
+    <div id="scoreboard">0 : 0</div>
+    <button id="reset" onclick="resetGame()">RESET</button>
+    <br />
+    <input type="checkbox" id="cpucheck">
+    <label>CPU Play</label>
+
+    <script src="Ball.js"></script>
+    <script src="Paddle.js"></script>
+    <script src="pong.js"></script>
+    <script src="controls.js"></script>
+    <script src="Powerup.js"></script>
+</body>
+</html>

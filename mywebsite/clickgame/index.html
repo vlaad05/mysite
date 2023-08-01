@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alien Data Simulator</title>
+    <link rel="stylesheet" href="overlays.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Alien Data Simulator</h1>
+    <h2>Alien Data: <span id="score">5</span></h2>
+    <div id="store-container">
+        <div class="store" name="Small Alien" cost="5" reap="1" cooldown="0.5"
+        src="imagess/smallalien.png"></div>
+        <div class="store" name="Alien" cost="15" reap="3" cooldown="3.0" auto="true"
+        src="imagess/smallalien.png" imgstyle="filter: hue-rotate(210deg);"></div>
+        <div class="store" name="Smart Alien" cost="150" reap="75" cooldown="5.0" auto="true"
+        src="imagess/smallalien.png" imgstyle="filter: hue-rotate(280deg);"></div>
+        <div class="store" name="Mini UFO" cost="1000" reap="500" cooldown="7.5" auto="true"
+        src="imagess/miniufo.png"></div>
+        <div class="store" name="UFO" cost="5000" reap="1000" cooldown="10.0" auto="true"
+        src="imagess/ufo.png"></div>
+        <div class="store" name="Alien Planet" cost="25000" reap="10000" cooldown="15.0" auto="true"
+        src="imagess/planet.png"></div>
+        <div class="store" name="Alien Universe" cost="100000" reap="25000" cooldown="20.0" auto="true"
+        src="imagess/universe.png"></div>
+        <div class="store" name="Galactic Councel" cost="500000" reap="100000" cooldown="25.0" auto="true"
+        src="imagess/councel.png"></div>
+        <div class="store" name="Alien Army" cost="1000000" reap="1000" cooldown="0.1" auto="true"
+        src="imagess/army.png"></div>
+        <div class="store" name="Alien King" cost="10000000" reap="1" cooldown="60.0" auto="true"
+        src="imagess/king.png"></div>
+    </div>
+    <div id="widget-container"></div>
+    
+    <script src="./game.js"></script>
+    <script src="./load.js"></script>
+</body>
+</html>
