@@ -12,6 +12,13 @@ h1 {
     perspective-origin: 50% 50%;
 }
 
+.back {
+    background-color: #9E606F;
+    color: black;
+    border-radius: 20px;
+    padding: 5px;
+}
+
 .cube {
     width: 100%;
     height: 100%;

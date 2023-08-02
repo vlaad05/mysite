@@ -20,3 +20,12 @@ h1 {
     height: 50px;
     font-family: 'Courier New', Courier, monospace;
 }
+
+.backbutton {
+    background-color: #9E606F;
+    color: black;
+    border-radius: 15px;
+    font-size: 30px;
+    height: 250px;
+    width: auto;
+}

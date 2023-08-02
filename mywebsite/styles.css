@@ -8,6 +8,7 @@ img {
     max-width: 100%;
     width: 439px;
     height: 159px;
+    border-radius: 30px;
 }
 
 input,
@@ -15,6 +16,15 @@ select,
 button,
 textarea {
     max-width: 100%;
+}
+
+.back {
+    background-color: #9E606F;
+    color: black;
+    border-radius: 30px;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
 }
 
 meter,

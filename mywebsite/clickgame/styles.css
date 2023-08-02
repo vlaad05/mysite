@@ -11,13 +11,23 @@ body {
     background-color: rgb(4, 156, 4);
 }
 
-h1, h2 {
+h1,
+h2 {
     color: rgb(121, 221, 224);
     text-align: center;
     text-decoration: underline;
-    font-family:'Arial Narrow Bold', sans-serif;
+    font-family: 'Arial Narrow Bold', sans-serif;
     letter-spacing: 1px;
     font-weight: bold;
+}
+
+.backbutton {
+    background-color: #9E606F;
+    color: black;
+    border-radius: 15px;
+    font-size: 30px;
+    height: 250px;
+    width: auto;
 }
 
 #store-container {
@@ -53,41 +63,48 @@ h1, h2 {
     max-height: var(--widget-height);
     max-width: var(--widget-width);
     margin: 5px;
-
     cursor: pointer;
-    
     justify-content: center;
     display: flex;
     align-items: center;
     flex: 1 1 var(--widget-width);
-
     overflow: hidden;
 }
 
+
 /* If the widget is an automatic widget */
+
 .widget[auto="true"] {
     background-color: green;
     border: 3px solid black;
 }
 
+
 /* If the widget is a click widget */
+
 .widget:not([auto="true"]) {
     background-color: limegreen;
     border: 3px solid white;
 }
 
+
 /* Widget with text */
+
 .widget p {
     color: white;
 }
 
+
 /* Widget with image */
+
 .widget img {
     max-width: 100%;
     max-height: 100%;
 }
 
+
 /* Floating point indicator */
+
 .point {
     position: absolute;
     transform-origin: center;
